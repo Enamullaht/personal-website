@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://personal-website-enamullahts-projects.vercel.app/sitemap.xml
+Sitemap: https://personal-website-gamma-three-9ub72t4jrp.vercel.app/sitemap.xml
