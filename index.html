@@ -659,7 +659,7 @@
         <div class="row"><label for="f-contact">Contact (phone / WhatsApp)</label><input type="text" id="f-contact" name="contact_number" required></div>
         <div class="row"><label for="f-msg">What's this about?</label><textarea id="f-msg" name="message" required></textarea></div>
         <div class="row"><label for="f-email">Email <span class="opt">(optional)</span></label><input type="email" id="f-email" name="email"></div>
-        <input type="hidden" name="access_key" value="PASTE-YOUR-WEB3FORMS-KEY-HERE">
+        <input type="hidden" name="access_key" value="6870463d-03ac-49ae-81b0-51ee6cebeb55">
         <input type="hidden" name="subject" value="New website contact request">
         <button type="submit" class="btn">Send request →</button>
         <div class="req-status" id="req-status"></div>
@@ -769,7 +769,7 @@ document.getElementById('pdf-unlock').addEventListener('click', async function()
       method: 'POST',
       headers: {'Content-Type':'application/json','Accept':'application/json'},
       body: JSON.stringify({
-        access_key: 'PASTE-YOUR-WEB3FORMS-KEY-HERE',
+        access_key: '6870463d-03ac-49ae-81b0-51ee6cebeb55',
         subject: 'Recruiter document access',
         name: name, designation: designation, organization: org,
         message: name + ' (' + designation + ' at ' + org + ') viewed the recruiter documents.'
